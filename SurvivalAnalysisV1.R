@@ -3,7 +3,7 @@ library(survminer)
 library(RTCGA.clinical)
 library(ggplot2)
 library(argparser)
-source("/home/liuchenglong/Documents/program/SurvivalAnalysis/plot.r")
+source("/SurvivalAnalysis/plot.r")
 # Command-line argument parsing
 parser <- arg_parser(description = "Survival Analysis and Plotting Script")
 parser <- add_argument(parser, "--intgene", help = "Comma-separated list of genes")
